@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bloc de Notas</title>
+	<link rel="stylesheet" type="text/css" href="BlocNotas.css">
+	<meta charset="utf-8">
+</head>
+<body>
+		<header>Bloc de Notas</header>
+
+		<div class="izq">
+			<div class="crear-nota">
+				<input type="text" placeholder="Titulo" id="titulo-nota">
+				<textarea placeholder="Escribe tu nota..." id="texto-nota"></textarea>
+				<select id="tema-nota">
+					<option value="personal">Personal</option>
+					<option value="trabajo">Trabajo</option>
+					<option value="escuela">Escuela</option>
+				</select>
+				<button id="agregrar-nota">Agregar</button>
+			</div>
+		</div>
+
+		<div class="der">
+		<div class="deri">
+				<div class="contenedor-notas">
+					
+				</div>
+		   <div class="nota personal"><h2>Titulo</h2><p>Parrafo</p></div>
+			<div class="nota trabajo"><h2>Titulo</h2><p>Parrafo</p></div>
+			<div class="nota escuela"><h2>Titulo</h2><p>Parrafo</p></div> 
+		</div>
+		</div>
+</body>
+<script type="text/javascript" src="BlocNotas.js"></script>
+</html>
